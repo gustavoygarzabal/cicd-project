@@ -1,8 +1,11 @@
 language: node_js
-
 node_js:
-  - "14"
-
+- '14'
 script:
-    - npm test
-    - npm run build
+- npm test
+- npm run build
+deploy:
+  provider: heroku
+  app: cicd-project-gustavo
+  api_key:
+    secure: iVOI2Q6Xc/Hb8yRAGovpi4DccMcYRlV0DKIOxFPozAlgcpF8Q1uzGEwpHr2yPLvWSZQ4Xupy6EiL4R7R0EeCbjpZakBblBo4tuUhQsIqUwWtEtDg7FTbdrmnwFDd37+ejMZAZoanmUYWUH/uBwtlAkrO9FqrCDA1kUMedALLEUEDNzo0XHEmXUxXZ4ZhbfiaJuirRym1xqsDkTn3rhrLMrGka9kdmQVjTT70RLCuZE5kc+vJKrlWIKyuvf6qm0uuLUGYYFSriXYUoN66CCiQW0ruqSkZDDvCTfgvVt6jMIzP+kCj5EQ90bG15peHlulT6vAq80ON/0VmExeKsNbyo+YUzmUKoAwkOCGhdRdpCY5o/EkXYc7zGf0OcQJ19SB4N8oMrQIVg3jfdiOnbkKShTBEEi1Y5fdvkz9gstg8oeeztYuGVDmK61MVHdKTQKZGPhgHm1PnXVpNMe+vRgEfYuK6rCbXlz1JBDPaXRhA6/zPJtW9pfVMlKeQkUKgB/xhhMNhAZXIjxE8vgioq72TLJwiFygTRTMTmvx0nAD/qgvsiJCwtfYtfQSEfdR2all0P1XArK3N8qZj7iVunbsa49DZV9uG50uoiYGrP5jkaup+uDIxGwjBG2maOK6VfoH6sXXJfyoKcuEyDfUZrR0TZNd/xLKc05KaxxfFYhol9e0=
