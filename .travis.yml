@@ -5,6 +5,8 @@ script:
 - npm test
 - npm run build
 deploy:
+  on:
+    branch: main
   provider: heroku
   app: cicd-project-gustavo
   api_key:
