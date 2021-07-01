@@ -6,17 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
           Probando CI/CD
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Angular
-        </a>
+        </h1>
+        <p>Pepe Ygarzabal</p>
       </header>
     </div>
   );
