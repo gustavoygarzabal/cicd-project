@@ -9,7 +9,7 @@ function App() {
         <h1>
           Probando CI/CD
         </h1>
-        <p>Pepe Ygarzabal</p>
+        <p>Gustavo Ygarzabal</p>
       </header>
     </div>
   );
